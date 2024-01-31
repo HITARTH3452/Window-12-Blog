@@ -1,0 +1,98 @@
+body{
+    background-color:black;
+}
+
+*{
+   color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    margin: 0px 25px;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoImg{
+    height: 60px;
+    margin-right: 15px;
+}
+
+
+/* main content */
+
+.content{
+    margin: 15px 198px;
+}
+
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    width: 1140px; /* Set the fixed width for all boxes */
+    height: 50px; /* Set the same height for all boxes */
+    text-align: center;
+    font-size:larger;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a; /* Set default background color */
+    transition: background-color 0.3s ease;
+}
+
+.quick-link{
+    background-color: blueviolet;
+    width: 1140px; /* Set the fixed width for all boxes */
+    height: 50px; /* Set the same height for all boxes */
+    text-align: center;
+    font-size:larger;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-color: #1a1a1a;  Set default background color */
+    /* transition: background-color 0.3s ease; */
+}
+
+.link:hover {
+    background-color: white;
+    color: black;
+}
+
+/* main content */
+
+h1 , p {
+    margin: 50px 0px;
+}
+
+p{
+    font-size: larger;
+}
+
+.content img{
+    width: 1140px;
+    height: auto;
+}
